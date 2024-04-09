@@ -4,7 +4,7 @@ import Knowledge from "@/components/Knowledge";
 import Presentation from "@/components/Presentation";
 import Projects from "@/components/Projects";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <Header />

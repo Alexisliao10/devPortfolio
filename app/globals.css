@@ -19,3 +19,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.dropdown {
+  top: -420%;
+  right: 0;
+  transition: top ease-out 0.3s;
+}
+
+.dropdown__inner {
+  overflow: hidden;
+}
+
+.dropdown.is-open {
+  top: 100%;
+}
