@@ -8,13 +8,13 @@ export default function Home(): JSX.Element {
   return (
     <>
       <Header />
-      <main>
+      {/* <main>
         <Presentation />
         <Projects />
         <Knowledge />
         <Contact />
       </main>
-      <footer>Portafolio Alexis Liao 2024</footer>
+      <footer>Portafolio Alexis Liao 2024</footer> */}
     </>
   );
 }

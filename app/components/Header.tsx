@@ -36,7 +36,7 @@ export default function Header() {
         hamIconClass={menu.hamIcon}
         closeIconClass={menu.closeIcon}
       />
-      <NavBar isOpen={menu.isOpen} />
+      <NavBar isOpen={menu.isOpen || false} />
     </header>
   );
 }
