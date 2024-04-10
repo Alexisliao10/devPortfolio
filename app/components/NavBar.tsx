@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from "react";
 
-export default function NavBar({ isOpen }: { isOpen: boolean }) {
+export default function NavBar({
+  isOpen,
+  setMenu,
+}: {
+  isOpen: boolean;
+  setMenu: () => void;
+}) {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const width = window.innerWidth;
@@ -10,21 +16,30 @@ export default function NavBar({ isOpen }: { isOpen: boolean }) {
       setIsMobile(true);
     }
   }, []);
+
   return (
     <ul
       className={` ${(isMobile && "dropdown") || ""} ${(isOpen && isMobile && "is-open opacity-100") || "-z-10 opacity-0"} absolute flex flex-col items-end gap-7 bg-secondaryColor/50 px-6 py-4 text-lg text-titleText sm:relative sm:top-0 sm:z-0 sm:flex-row sm:items-center sm:bg-transparent sm:text-xl sm:opacity-100`}
     >
       <li>
-        <a href="#">Sobre mí</a>
+        <a onClick={setMenu} href="#sobremi">
+          Sobre mí
+        </a>
       </li>
       <li>
-        <a href="#">Proyectos</a>
+        <a onClick={setMenu} href="#">
+          Proyectos
+        </a>
       </li>
       <li>
-        <a href="#">Conocimientos</a>
+        <a onClick={setMenu} href="#">
+          Conocimientos
+        </a>
       </li>
       <li>
-        <a href="#">Contacto</a>
+        <a onClick={setMenu} href="#">
+          Contacto
+        </a>
       </li>
     </ul>
   );

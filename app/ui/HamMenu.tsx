@@ -7,7 +7,10 @@ export default function HamMenu({
   closeIconClass,
 }: HamMenuProps) {
   return (
-    <div className="navMenu h-fit cursor-pointer self-center" onClick={onClick}>
+    <div
+      className="navMenu z-10 h-fit cursor-pointer self-center"
+      onClick={onClick}
+    >
       <ReactSVG
         beforeInjection={(svg) => {
           svg.setAttribute("width", "30px");
