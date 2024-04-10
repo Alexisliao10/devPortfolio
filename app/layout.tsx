@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
@@ -21,7 +22,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="./favicon.ico" sizes="any" />
       </head>
-      <body className={`${robotoMono.className} text-white`}>{children}</body>
+      <body className={`${robotoMono.className} text-white`}>
+        <Header />
+        {children}
+        {/* <footer>Portafolio Alexis Liao 2024</footer> */}
+      </body>
     </html>
   );
 }

@@ -16,7 +16,7 @@ export default function HamMenu({
           path?.setAttribute("stroke", "white");
         }}
         className={hamIconClass}
-        src="./icons/menu-svgrepo-com.svg"
+        src="./icons/menu.svg"
       />
       <ReactSVG
         beforeInjection={(svg) => {
@@ -27,7 +27,7 @@ export default function HamMenu({
           path?.setAttribute("fill", "white");
         }}
         className={closeIconClass}
-        src="./icons/close-svgrepo-com.svg"
+        src="./icons/close.svg"
       />
     </div>
   );

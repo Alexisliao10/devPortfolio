@@ -1,6 +1,6 @@
 "use client";
 import NavBar from "@/components/NavBar";
-import HamMenu from "./HamMenu";
+import HamMenu from "@/ui/HamMenu";
 import { useState } from "react";
 import type { menuState } from "app/types";
 
@@ -30,7 +30,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative flex h-11 w-full justify-end bg-primaryColor px-6">
+    <header className="relative flex h-11 w-full justify-end bg-primaryColor px-6 sm:h-20">
       <HamMenu
         onClick={clickHandle}
         hamIconClass={menu.hamIcon}
