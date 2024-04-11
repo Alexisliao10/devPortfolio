@@ -1,8 +1,8 @@
 "use client";
-import NavBar from "@/components/NavBar";
-import HamMenu from "@/ui/HamMenu";
 import { useState } from "react";
 import type { MenuState } from "app/types";
+import HamMenu from "app/ui/HamMenu";
+import NavBar from "./NavBar";
 
 export default function Header() {
   const [menu, setMenu] = useState<MenuState>({

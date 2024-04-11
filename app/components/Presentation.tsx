@@ -22,10 +22,9 @@ export default function Presentation() {
       <section id="aboutme">
         <h2 className="text-xl font-medium text-titleText">Sobre mi</h2>
         <p className="mt-3">
-          "Soy un entusiasta del desarrollo front-end con un fuerte deseo de
-          crecimiento. Busco oportunidades para unirme a un equipo profesional y
-          estoy emocionado por colaborar en proyectos desafiantes y contribuir
-          al éxito del equipo con mi dedicación y pasión por la tecnología."
+          {
+            "Soy un entusiasta del desarrollo front-end con un fuerte deseo de crecimiento. Busco oportunidades para unirme a un equipo profesional y estoy emocionado por colaborar en proyectos desafiantes y contribuir al éxito del equipo con mi dedicación y pasión por la tecnología."
+          }
         </p>
         <h3 className="mb-4 mt-14 text-titleText">Objectivos:</h3>
         <ul className="space-y-5">
