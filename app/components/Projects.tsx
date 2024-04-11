@@ -1,8 +1,8 @@
 "use client";
-import ProjectCard from "@/ui/ProjectCard";
 import { useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 import type { Project } from "app/types";
+import ProjectCard from "app/ui/ProjectCard";
 
 const myProjects: Project[] = [
   {
