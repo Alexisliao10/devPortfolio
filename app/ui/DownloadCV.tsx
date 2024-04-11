@@ -1,3 +1,4 @@
+import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] });
@@ -12,7 +13,7 @@ export default function DownloadCV() {
       <div className={`${roboto.className} font-bold text-black`}>
         Descargar CV
       </div>
-      <img src="/icons/download.svg" alt="icono de descarga" width={23} />
+      <ArrowDownTrayIcon className="size-6 text-black" />
     </a>
   );
 }

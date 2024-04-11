@@ -7,7 +7,7 @@ export default function Home(): JSX.Element {
   return (
     <main className="px-6">
       <Presentation />
-      {/* <Projects /> */}
+      <Projects />
       {/* <Knowledge /> */}
       {/* <Contact /> */}
     </main>

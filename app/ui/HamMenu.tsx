@@ -1,4 +1,4 @@
-import { ReactSVG } from "react-svg";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import type { HamMenuProps } from "app/types";
 
 export default function HamMenu({
@@ -8,30 +8,11 @@ export default function HamMenu({
 }: HamMenuProps) {
   return (
     <div
-      className="navMenu z-10 h-fit cursor-pointer self-center"
+      className="navMenu z-10 size-8 h-fit cursor-pointer self-center"
       onClick={onClick}
     >
-      <ReactSVG
-        beforeInjection={(svg) => {
-          svg.setAttribute("width", "30px");
-          svg.setAttribute("height", "30px");
-          const path = svg.querySelector("path");
-          path?.setAttribute("stroke", "white");
-        }}
-        className={hamIconClass}
-        src="./icons/menu.svg"
-      />
-      <ReactSVG
-        beforeInjection={(svg) => {
-          svg.setAttribute("width", "30px");
-          svg.setAttribute("height", "30px");
-          const path = svg.querySelector("path");
-          path?.setAttribute("stroke", "white");
-          path?.setAttribute("fill", "white");
-        }}
-        className={closeIconClass}
-        src="./icons/close.svg"
-      />
+      <Bars3Icon className={hamIconClass} />
+      <XMarkIcon className={closeIconClass} />
     </div>
   );
 }

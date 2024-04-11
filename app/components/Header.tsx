@@ -2,10 +2,10 @@
 import NavBar from "@/components/NavBar";
 import HamMenu from "@/ui/HamMenu";
 import { useState } from "react";
-import type { menuState } from "app/types";
+import type { MenuState } from "app/types";
 
 export default function Header() {
-  const [menu, setMenu] = useState<menuState>({
+  const [menu, setMenu] = useState<MenuState>({
     closeIcon: "hidden",
     hamIcon: "block",
     isOpen: false,

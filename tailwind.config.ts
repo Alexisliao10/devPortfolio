@@ -15,6 +15,7 @@ const config: Config = {
         tertiaryColor: "#e5e5e5",
         primaryText: "#ffffff",
         titleText: "#fca311",
+        linkColor: "#4493f8",
       },
     },
   },

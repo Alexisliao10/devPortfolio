@@ -14,12 +14,12 @@ export default function Presentation() {
           height={150}
         />
         <div className="flex flex-col items-center self-end">
-          <h1 className="text-2xl font-bold text-titleText">Alexis Liao</h1>
+          <h1 className="text-2xl font-bold text-titleText ">Alexis Liao</h1>
           <p className="mb-7">Desarrollador Front-End</p>
           <DownloadCV />
         </div>
       </section>
-      <section id="sobremi">
+      <section id="aboutme">
         <h2 className="text-xl font-medium text-titleText">Sobre mi</h2>
         <p className="mt-3">
           "Soy un entusiasta del desarrollo front-end con un fuerte deseo de

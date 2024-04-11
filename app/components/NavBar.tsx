@@ -22,12 +22,12 @@ export default function NavBar({
       className={` ${(isMobile && "dropdown") || ""} ${(isOpen && isMobile && "is-open opacity-100") || "-z-10 opacity-0"} absolute flex flex-col items-end gap-7 bg-secondaryColor/50 px-6 py-4 text-lg text-titleText sm:relative sm:top-0 sm:z-0 sm:flex-row sm:items-center sm:bg-transparent sm:text-xl sm:opacity-100`}
     >
       <li>
-        <a onClick={setMenu} href="#sobremi">
+        <a onClick={setMenu} href="#aboutme">
           Sobre mí
         </a>
       </li>
       <li>
-        <a onClick={setMenu} href="#">
+        <a onClick={setMenu} href="#projects">
           Proyectos
         </a>
       </li>
