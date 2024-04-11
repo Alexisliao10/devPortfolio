@@ -15,12 +15,12 @@ export interface HamMenuProps {
 export interface Project {
   title: string;
   scURL: string;
-  stacks: Icons;
+  stacks: StackIcons;
   gitHubLink?: string;
   deployLink?: string;
 }
 
-export type Icons = (
+export type StackIcons = (
   | "HTML"
   | "CSS"
   | "JavaScript"
@@ -33,4 +33,11 @@ export type Icons = (
   | "GitHub"
   | "Sass"
   | "Webpack"
+  | "Bootstrap"
+  | "NodeJs"
+  | "Visual Studio Code"
+  | "PostgreSQL"
+  | "Express"
+  | "Prisma"
+  | "Python"
 )[];

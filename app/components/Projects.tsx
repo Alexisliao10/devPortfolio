@@ -1,38 +1,8 @@
 "use client";
 import { useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
-import type { Project } from "app/types";
 import ProjectCard from "app/ui/ProjectCard";
-
-const myProjects: Project[] = [
-  {
-    title: "Portfolio",
-    scURL: "/images/sc-alexis-portfolio.jpg",
-    stacks: ["NextJs", "TypeScript", "Tailwind"],
-    gitHubLink: "https://github.com/Alexisliao10/devPortfolio",
-  },
-  {
-    title: "AlMovie",
-    scURL: "/images/sc-almovie.jpg",
-    stacks: ["HTML", "JavaScript", "Tailwind"],
-    deployLink: "https://spectacular-paprenjak-dd59d8.netlify.app",
-    gitHubLink: "https://github.com/Alexisliao10/ALMOVIE",
-  },
-  {
-    title: "TodoApp",
-    scURL: "/images/sc-react-todo-app.jpg",
-    stacks: ["React", "CSS"],
-    deployLink: "https://curso-react-intro-nine.vercel.app/",
-    gitHubLink: "https://github.com/Alexisliao10/react-todo-app",
-  },
-  {
-    title: "Platzi Travel",
-    scURL: "/images/sc-platzi-travel.jpg",
-    stacks: ["HTML", "Tailwind"],
-    deployLink: "#",
-    gitHubLink: "https://github.com/Alexisliao10/Platzi-travel",
-  },
-];
+import { myProjects } from "app/data/portfolio";
 
 export default function Projects() {
   const ref =

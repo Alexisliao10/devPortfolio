@@ -19,7 +19,10 @@ export default function ProjectCard({
         draggable={false}
         alt={`captura de imagen de ${title} `}
       />
-      <TechStackWrapper stacks={stacks} />
+      <TechStackWrapper
+        stacks={stacks}
+        className="mt-4 flex w-full justify-center gap-1"
+      />
       <div className="mt-4 flex justify-between rounded-b-lg bg-black px-4 py-3 text-xs">
         <a
           className="text-linkColor underline hover:text-orange-300"

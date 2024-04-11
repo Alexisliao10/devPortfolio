@@ -17,4 +17,11 @@ const stackImage = {
   Sass: "/logos/sass.png",
   TypeScript: "/logos/typescript.png",
   Webpack: "/logos/webpack.png",
+  Bootstrap: "/logos/bootstrap.png",
+  NodeJs: "/logos/node-js.png",
+  "Visual Studio Code": "/logos/vs-code.png",
+  PostgreSQL: "/logos/postgresql.png",
+  Express: "/logos/express.png",
+  Prisma: "/logos/prisma.png",
+  Python: "/logos/python.png",
 };
