@@ -15,10 +15,12 @@ export interface HamMenuProps {
 export interface Project {
   title: string;
   scURL: string;
-  stacks: StacksOption;
+  stacks: Icons;
+  gitHubLink?: string;
+  deployLink?: string;
 }
 
-export type StacksOption = (
+export type Icons = (
   | "HTML"
   | "CSS"
   | "JavaScript"

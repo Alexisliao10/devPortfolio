@@ -9,21 +9,28 @@ const myProjects: Project[] = [
     title: "Portfolio",
     scURL: "/images/sc-alexis-portfolio.jpg",
     stacks: ["NextJs", "TypeScript", "Tailwind"],
+    gitHubLink: "https://github.com/Alexisliao10/devPortfolio",
   },
   {
     title: "AlMovie",
     scURL: "/images/sc-almovie.jpg",
     stacks: ["HTML", "JavaScript", "Tailwind"],
+    deployLink: "https://spectacular-paprenjak-dd59d8.netlify.app",
+    gitHubLink: "https://github.com/Alexisliao10/ALMOVIE",
   },
   {
     title: "TodoApp",
     scURL: "/images/sc-react-todo-app.jpg",
     stacks: ["React", "CSS"],
+    deployLink: "https://curso-react-intro-nine.vercel.app/",
+    gitHubLink: "https://github.com/Alexisliao10/react-todo-app",
   },
   {
     title: "Platzi Travel",
     scURL: "/images/sc-platzi-travel.jpg",
     stacks: ["HTML", "Tailwind"],
+    deployLink: "#",
+    gitHubLink: "https://github.com/Alexisliao10/Platzi-travel",
   },
 ];
 
@@ -45,6 +52,8 @@ export default function Projects() {
             title={project.title}
             scURL={project.scURL}
             stacks={project.stacks}
+            gitHubLink={project.gitHubLink}
+            deployLink={project.deployLink}
           />
         ))}
       </div>

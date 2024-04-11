@@ -1,7 +1,7 @@
-import type { StacksOption } from "app/types";
+import type { Icons } from "app/types";
 import TechStackCard from "./TechStackCard";
 
-export default function TechStackWrapper({ stacks }: { stacks: StacksOption }) {
+export default function TechStackWrapper({ stacks }: { stacks: Icons }) {
   return (
     <div className="mt-4 flex w-full justify-center gap-1">
       {stacks.map((stack, index) => (
