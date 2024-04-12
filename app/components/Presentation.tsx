@@ -5,7 +5,7 @@ export default function Presentation() {
   return (
     <>
       <section className="my-8 flex flex-col">
-        <p className="mt-10">¡Hola! Me llamo</p>
+        <p className="mt-2">¡Hola! Me llamo</p>
         <Image
           className="my-4 self-center rounded-full"
           src={"/images/AlexisProfilePic.jpeg"}
