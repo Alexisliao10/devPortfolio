@@ -30,7 +30,7 @@ export default function ProjectCard({
           target={deployLink ? "_blank" : ""}
           rel="noopener noreferrer"
         >
-          Echar un vistazo
+          Echa un vistazo
         </a>
         <a
           className="underline hover:text-orange-400"

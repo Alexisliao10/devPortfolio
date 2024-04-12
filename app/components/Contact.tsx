@@ -29,14 +29,15 @@ export default function Contact() {
       </div>
       <div className="flex w-fit gap-2 rounded-2xl bg-white px-3 py-1 hover:cursor-pointer">
         <Image
+          className="h-auto w-[20px]"
           src={"/logos/linkedin.png"}
           alt="linkedin logo"
-          width={20}
-          height={20}
+          width={16}
+          height={16}
         />
         <a
           href="https://www.linkedin.com/in/alexisliao10"
-          className="font-bold text-black"
+          className="text-linkColor font-bold"
           rel="noopener noreferrer"
           target="_blank"
         >
