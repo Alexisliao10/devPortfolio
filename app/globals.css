@@ -27,6 +27,10 @@
   background-color: #0043de;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: auto;
   color: white;

@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
       <Presentation />
       <Projects />
       <Knowledge />
-      {/* <Contact /> */}
+      <Contact />
     </main>
   );
 }

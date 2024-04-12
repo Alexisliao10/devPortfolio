@@ -8,7 +8,7 @@ import {
 
 export default function Knowledge() {
   return (
-    <section className="mt-4 space-y-8">
+    <section id="knowledge" className="mt-4 space-y-8">
       <h2 className="text-xl text-titleText">Conocimientos</h2>
       <h3 className="text-titleText">Front-End</h3>
       <TechStackWrapper

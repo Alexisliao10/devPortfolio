@@ -32,12 +32,12 @@ export default function NavBar({
         </a>
       </li>
       <li>
-        <a onClick={setMenu} href="#">
+        <a onClick={setMenu} href="#knowledge">
           Conocimientos
         </a>
       </li>
       <li>
-        <a onClick={setMenu} href="#">
+        <a onClick={setMenu} href="#contact">
           Contacto
         </a>
       </li>
