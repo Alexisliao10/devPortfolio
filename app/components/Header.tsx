@@ -30,7 +30,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative flex h-11 w-full justify-end bg-primaryColor px-6 sm:h-20">
+    <header className="header relative flex h-11 w-full justify-end bg-primaryColor bg-cover bg-center px-6 sm:h-20">
       <HamMenu
         onClick={clickHandle}
         hamIconClass={menu.hamIcon}

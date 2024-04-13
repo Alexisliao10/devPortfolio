@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 
 export default function Home(): JSX.Element {
   return (
-    <main className="px-6">
+    <main className="m-[0_auto] max-w-6xl px-6">
       <Presentation />
       <Projects />
       <Knowledge />

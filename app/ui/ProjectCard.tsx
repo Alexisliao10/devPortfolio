@@ -15,7 +15,7 @@ export default function ProjectCard({
       </h4>
       <img
         src={scURL}
-        className="h-56 w-80"
+        className="h-56 w-80 sm:h-60 sm:w-96"
         draggable={false}
         alt={`captura de imagen de ${title} `}
       />
@@ -25,7 +25,7 @@ export default function ProjectCard({
       />
       <div className="mt-4 flex justify-between rounded-b-lg bg-black px-4 py-3 text-xs">
         <a
-          className="text-linkColor underline hover:text-orange-300"
+          className="text-linkColor underline hover:text-orange-300 sm:text-base"
           href={deployLink || "#"}
           target={deployLink ? "_blank" : ""}
           rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export default function ProjectCard({
           Echa un vistazo
         </a>
         <a
-          className="underline hover:text-orange-400"
+          className="underline hover:text-orange-400 sm:text-base"
           href={gitHubLink || "#"}
           target="_blank"
           rel="noopener noreferrer"

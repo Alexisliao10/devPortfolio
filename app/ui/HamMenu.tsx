@@ -8,7 +8,7 @@ export default function HamMenu({
 }: HamMenuProps) {
   return (
     <div
-      className="navMenu z-10 size-8 h-fit cursor-pointer self-center"
+      className="navMenu z-10 size-8 h-fit cursor-pointer self-center sm:hidden"
       onClick={onClick}
     >
       <Bars3Icon className={hamIconClass} />

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
 *::-webkit-scrollbar {
   height: 4px;
   width: 4px;
@@ -43,9 +49,17 @@ body {
   );
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+@media (width > 1150px) {
+  .header {
+    padding-left: calc((100% - 1152px) / 2);
+    padding-right: calc((100% - 1152px) / 2);
   }
 }
 
@@ -61,4 +75,42 @@ body {
 
 .dropdown.is-open {
   top: 100%;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.tooltip-container:focus {
+  color: green;
+}
+
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: -120%;
+  top: -20%;
+  background-color: whitesmoke;
+  color: gray;
+  padding: 5px;
+  border-radius: 1px;
+  transition: opacity 0.3s;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: -4%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent orange transparent transparent;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

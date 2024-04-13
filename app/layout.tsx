@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${robotoMono.className} text-white`}>
         <Header />
         {children}
-        <footer className="bg-black py-2 text-center text-[10px]">
+        <footer className="bg-black py-2 text-center text-[10px] sm:h-10 sm:text-xs">
           Portafolio Alexis Liao 2024
         </footer>
       </body>

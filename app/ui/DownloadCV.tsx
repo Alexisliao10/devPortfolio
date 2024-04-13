@@ -10,10 +10,10 @@ export default function DownloadCV() {
       rel="noopener noreferrer"
       className="flex w-fit space-x-1 rounded-3xl bg-titleText px-5 py-1 align-middle hover:scale-110 hover:bg-titleText/80 hover:transition-transform"
     >
-      <div className={`${roboto.className} font-bold text-black`}>
+      <div className={`${roboto.className} font-bold text-black sm:text-2xl`}>
         Descargar CV
       </div>
-      <ArrowDownTrayIcon className="size-6 text-black" />
+      <ArrowDownTrayIcon className="size-6 text-black sm:size-8" />
     </a>
   );
 }

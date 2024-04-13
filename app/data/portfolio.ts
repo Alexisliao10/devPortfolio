@@ -19,7 +19,7 @@ export const myProjects: Project[] = [
   {
     title: "TodoApp",
     scURL: "/images/sc-react-todo-app.jpg",
-    stacks: ["React", "CSS"],
+    stacks: ["React", "JavaScript", "CSS"],
     deployLink: "https://curso-react-intro-nine.vercel.app/",
     gitHubLink: "https://github.com/Alexisliao10/react-todo-app",
   },
