@@ -25,7 +25,7 @@ export default function Presentation() {
         <h2 className="rounded-2xl text-xl font-medium text-titleText sm:w-fit sm:bg-secondaryColor sm:px-8 sm:py-3 sm:text-2xl">
           Sobre mi
         </h2>
-        <p className="sm;bg-secondaryColor mt-3 rounded-2xl sm:px-8 sm:py-6 sm:text-lg">
+        <p className="mt-3 rounded-2xl sm:bg-secondaryColor sm:px-8 sm:py-6 sm:text-lg">
           {
             "Soy un entusiasta del desarrollo front-end con un fuerte deseo de crecimiento. Busco oportunidades para unirme a un equipo profesional y estoy emocionado por colaborar en proyectos desafiantes y contribuir al éxito del equipo con mi dedicación y pasión por la tecnología."
           }
