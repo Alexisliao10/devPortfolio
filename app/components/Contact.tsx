@@ -20,7 +20,9 @@ export default function Contact() {
           tabIndex={0}
         >
           Alexisliao10@gmail.com
-          <span className="tooltip">click para copiar email</span>
+          <span className="tooltip hidden sm:block">
+            click para copiar email
+          </span>
         </span>
         <button
           className={`${copy === "copiar" ? "text-linkColor" : "text-green-500"} ml-3 sm:hidden`}

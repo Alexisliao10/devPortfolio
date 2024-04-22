@@ -45,7 +45,7 @@ export const frontEndStacks: StackIcons = [
   "NextJs",
 ];
 
-export const backEndStacks: StackIcons = ["NodeJs"];
+export const backEndStacks: StackIcons = ["NodeJs", "Express"];
 
 export const devTools: StackIcons = [
   "GitHub",
@@ -58,7 +58,6 @@ export const devTools: StackIcons = [
 export const learningStacks: StackIcons = [
   "NextJs",
   "PostgreSQL",
-  "Express",
   "Prisma",
   "Python",
 ];
