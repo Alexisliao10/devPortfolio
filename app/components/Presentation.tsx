@@ -13,7 +13,7 @@ export default function Presentation() {
           width={150}
           height={150}
         />
-        <div className="flex flex-col items-center self-end sm:col-start-1 sm:row-start-2 sm:place-self-center">
+        <div className="flex flex-col items-center self-center sm:col-start-1 sm:row-start-2 sm:place-self-center">
           <h1 className="text-2xl font-bold text-titleText sm:text-5xl">
             Alexis Liao
           </h1>
@@ -23,7 +23,7 @@ export default function Presentation() {
       </section>
       <section id="aboutme">
         <h2 className="rounded-2xl text-xl font-medium text-titleText sm:w-fit sm:bg-secondaryColor sm:px-8 sm:py-3 sm:text-2xl">
-          Sobre mi
+          Perfil
         </h2>
         <p className="mt-3 rounded-2xl sm:bg-secondaryColor sm:px-8 sm:py-6 sm:text-lg">
           {
