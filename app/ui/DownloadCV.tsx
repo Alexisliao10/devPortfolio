@@ -5,7 +5,7 @@ const roboto = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] });
 export default function DownloadCV() {
   return (
     <a
-      href="https://drive.google.com/file/d/1n_PvnsjYSCduIjl0lesS2qZLxjRBJt_9/view?usp=sharing"
+      href="https://drive.google.com/file/d/1BmDvDtGIxgwTiWlmJh0G5Keb-toEvBeq/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="flex w-fit space-x-1 rounded-3xl bg-titleText px-5 py-1 align-middle hover:scale-110 hover:bg-titleText/80 hover:transition-transform"
